@@ -1,0 +1,25 @@
+to run this project please run following command, please make sure docker is installed in your system
+docker-compose up --build
+
+This project contain following Apis 
+
+spatial based multiple point data.
+POST /points/  -> to add the point 
+GET /points  -> to get the list of the point 
+GET /points/:id/  -> to get the single point using id
+PUT /points/:id/   -> to edit the single point using id
+DELETE /points/:id/  -> to delete the single point using id
+GET /points/radius  ->  to find the points within the radius
+
+spatial based multiple polygon data.
+POST /polygons/  -> to add the polygon
+GET /polygons  -> to get the list of the polygon
+GET /polygons/:id/  -> to get the single polygon using id
+PUT /polygons/:id/   -> to edit the single polygon using id
+DELETE /polygons/:id/  -> to delete the single polygon using id
+GET /polygons/search  ->  to search the polygon 
+GET /polygons/:polygonId/points -> Find points within a polygon
+
+please Use below link for api documentation
+
+https://documenter.getpostman.com/view/15719725/2sAYBPkZEh
